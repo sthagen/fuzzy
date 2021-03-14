@@ -1,5 +1,6 @@
 coverage
 flake8
+hypothesis
 pyperf
 pytest
 pytest-coverage
