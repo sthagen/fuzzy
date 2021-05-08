@@ -3,7 +3,6 @@
 """Whatever this app does, is more for enabling tests."""
 import os
 import pathlib
-import pymc3
 import subprocess
 import sys
 
