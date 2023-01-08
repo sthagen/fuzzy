@@ -6,7 +6,9 @@ Add system level declarative, data driven keyword tests per robot framework.
 ## Primary Source repository
 
 The main source of `fuzzy` is on a mountain in central Switzerland.
-We use distributed version control (git). No central hub. Each clone can become a new source for the benefit of all.
+We use distributed version control (git).
+There is no central hub.
+Every clone can become a new source for the benefit of all.
 The preferred public clones of `fuzzy` are:
 
 * [on codeberg](https://codeberg.org/sthagen/fuzzy) - a democratic community-driven, non-profit software development platform operated by Codeberg e.V.
