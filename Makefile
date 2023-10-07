@@ -53,13 +53,8 @@ clean:
 	@rm -f `find . -type f -name '*.py[co]' `
 	@rm -f `find . -type f -name '*~' `
 	@rm -f `find . -type f -name '.*~' `
-	@rm -rf .cache
-	@rm -rf htmlcov
-	@rm -rf *.egg-info
-	@rm -f .coverage
-	@rm -f .coverage.*
-	@rm -rf build
-	@rm -f *.log
+	@rm -rf .cache build htmlcov *.egg-info
+	@rm -f .coverage .coverage.* *.log .DS_Store
 	python setup.py clean
 
 .PHONY: name
